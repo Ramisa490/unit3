@@ -10,17 +10,17 @@ import java.io.FileReader;
 
 @UtilityClass
 public class SettingsTestData {
-    public final String RESOURCE_FILE_PATH = "src/test/resources/";
-    private final String ENV_FILE_PATH = RESOURCE_FILE_PATH + "env.json";
-    private final String PROD_ENV_FILE_PATH = RESOURCE_FILE_PATH + "prodenv.json";
+    public static final String RESOURCE_FILE_PATH = "src/test/resources/";
+    private static final String ENV_FILE_PATH = RESOURCE_FILE_PATH + "env.json";
+    private static final String PROD_ENV_FILE_PATH = RESOURCE_FILE_PATH + "prodenv.json";
     private final String USER_FILE_PATH = RESOURCE_FILE_PATH + "userData.json";
-    private final String DATA_TABLE_FILE_PATH = RESOURCE_FILE_PATH + "dataTableData.json";
-    private final String FILE_DATA_PATH = RESOURCE_FILE_PATH + "fileData.json";
-    private final String ERROR_MSG = "File with environment settings not found or incorrect";
-    private Gson gson = new Gson();
+    private static final String DATA_TABLE_FILE_PATH = RESOURCE_FILE_PATH + "dataTableData.json";
+    private static final String FILE_DATA_PATH = RESOURCE_FILE_PATH + "fileData.json";
+    private static final String ERROR_MSG = "File with environment settings not found or incorrect";
+    private static Gson gson = new Gson();
 
 
-    private Env getEnvironment() {
+    private static Env getEnvironment() {
         try {
             return gson.fromJson(new FileReader(ENV_FILE_PATH), Env.class);
         }
@@ -30,7 +30,7 @@ public class SettingsTestData {
         }
     }
 
-    public EnvData getEnvData() {
+    public static EnvData getEnvData() {
         try {
             if (getEnvironment().getEnv().equals("prod")) {
                 return gson.fromJson(new FileReader(PROD_ENV_FILE_PATH), EnvData.class);
@@ -54,7 +54,7 @@ public class SettingsTestData {
         }
     }
 
-    public DataTableData getDataTableData() {
+    public static DataTableData getDataTableData() {
         try {
             return gson.fromJson(new FileReader(DATA_TABLE_FILE_PATH), DataTableData.class);
         }
@@ -64,7 +64,7 @@ public class SettingsTestData {
         }
     }
 
-    public FileData getFileData() {
+    public static FileData getFileData() {
         try {
             return gson.fromJson(new FileReader(FILE_DATA_PATH), FileData.class);
         }
