@@ -8,15 +8,20 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class BasicAuthTest extends BaseTest {
-    private BasicAuthPage basicAuthPage = new BasicAuthPage();
+    private final BasicAuthPage basicAuthPage = new BasicAuthPage();
 
     @BeforeMethod
     public void auth() {
-        // todo: add basic auth
+        browser.network().addBasicAuthentication(
+                SettingsTestData.getEnvData().getDomain(),
+                SettingsTestData.getUserData().getUsername(), // Corrected method call
+                SettingsTestData.getUserData().getPassward() // Corrected method call, assuming there's a method like getPasswardData()
+        );
     }
 
     @Test
     public void basicAuthTest() {
-        // todo: add test
+        mainPage.clickNavigationLink(MainPageNavigation.BASIC_AUTH);
+        Assert.assertTrue(basicAuthPage.isSuccessMsgDisplayed(),"Message are not displayed");
     }
 }

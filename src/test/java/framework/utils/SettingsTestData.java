@@ -44,7 +44,7 @@ public class SettingsTestData {
         }
     }
 
-    public UserData getUserData() {
+    public static UserData getUserData() {
         try {
             return gson.fromJson(new FileReader(USER_FILE_PATH), UserData.class);
         }

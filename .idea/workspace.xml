@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20438c33-23d6-42bd-8338-708dc347ce33" name="Changes" comment="committed">
-      <change beforePath="$PROJECT_DIR$/src/test/java/framework/utils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/utils/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/models/EnvData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/models/EnvData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/models/UserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/models/UserData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/pages/BasicAuthPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/pages/BasicAuthPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/tests/BasicAuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/tests/BasicAuthTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/utils/SettingsTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/utils/SettingsTestData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -19,4 +19,7 @@ public class EnvData {
         return wait;
     }
 
+    public String getDomain() {
+        return domain;
+    }
 }
