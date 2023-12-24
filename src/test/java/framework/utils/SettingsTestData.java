@@ -13,7 +13,7 @@ public class SettingsTestData {
     public static final String RESOURCE_FILE_PATH = "src/test/resources/";
     private static final String ENV_FILE_PATH = RESOURCE_FILE_PATH + "env.json";
     private static final String PROD_ENV_FILE_PATH = RESOURCE_FILE_PATH + "prodenv.json";
-    private final String USER_FILE_PATH = RESOURCE_FILE_PATH + "userData.json";
+    private static final String USER_FILE_PATH = RESOURCE_FILE_PATH + "userData.json";
     private static final String DATA_TABLE_FILE_PATH = RESOURCE_FILE_PATH + "dataTableData.json";
     private static final String FILE_DATA_PATH = RESOURCE_FILE_PATH + "fileData.json";
     private static final String ERROR_MSG = "File with environment settings not found or incorrect";
