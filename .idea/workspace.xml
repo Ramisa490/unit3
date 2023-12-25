@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20438c33-23d6-42bd-8338-708dc347ce33" name="Changes" comment="committed">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/pages/FileUploadPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/framework/pages/UplodedFilePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/framework/models/FileData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/models/FileData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/framework/models/UserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/models/UserData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/framework/pages/BasicAuthPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/pages/BasicAuthPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/framework/pages/DynamicControlsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/pages/DynamicControlsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/framework/pages/FileDownloadPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/pages/FileDownloadPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/framework/pages/JavaScriptAlertsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/pages/JavaScriptAlertsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/framework/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/framework/pages/MainPageNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/pages/MainPageNavigation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/framework/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/framework/tests/BasicAuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/tests/BasicAuthTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/framework/tests/DynamicControlsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/tests/DynamicControlsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/framework/tests/FileDownloadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/tests/FileDownloadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/framework/utils/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/utils/FileUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/framework/utils/SettingsTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/utils/SettingsTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/tests/FileUploadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/tests/FileUploadTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +50,7 @@
     "TestNG.DataTableTests.executor": "Run",
     "TestNG.DynamicControlsTest.executor": "Run",
     "TestNG.FileDownloadTest.executor": "Run",
+    "TestNG.FileUploadTest.executor": "Run",
     "TestNG.MainPage.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -72,7 +63,7 @@
       <recent name="C:\Users\pc\IdeaProjects\unit3_tasks\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FileDownloadTest">
+  <component name="RunManager" selected="TestNG.FileUploadTest">
     <configuration name="AlertTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="unit3_tasks" />
       <extension name="coverage">
@@ -83,23 +74,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="framework.tests" />
       <option name="MAIN_CLASS_NAME" value="framework.tests.AlertTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BaseTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="unit3_tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="framework.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="framework.tests" />
-      <option name="MAIN_CLASS_NAME" value="framework.tests.BaseTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -158,13 +132,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FileUploadTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="unit3_tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="framework.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="framework.tests" />
+      <option name="MAIN_CLASS_NAME" value="framework.tests.FileUploadTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FileUploadTest" />
         <item itemvalue="TestNG.FileDownloadTest" />
         <item itemvalue="TestNG.DynamicControlsTest" />
         <item itemvalue="TestNG.AlertTest" />
         <item itemvalue="TestNG.DataTableTests" />
-        <item itemvalue="TestNG.BaseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703509888232</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="committed">
+      <option name="closed" value="true" />
+      <created>1703520088232</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703520088232</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
