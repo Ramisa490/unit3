@@ -14,16 +14,25 @@ public class DataTablesPage extends Form {
     private static final String NAME = "Data Tables";
     private final By DUE = By.xpath("//*[@id='table1']//td[4]");
 
-    public DataTablesPage() {
+    public DataTablesPage()
+    {
+
         super(By.xpath(String.format(LocatorConstants.PRECISE_TEXT_XPATH, NAME)), NAME);
     }
 
-    public List<String> getFirstDueList() {
-        // todo: implement
-        return null;
+    public List<String> getFirstDueList()
+    {
+     List<String>duelist = new ArrayList<>();
+     for(ILabel label:getFirstDueLblList())
+     {
+         duelist.add(label.getText());
+     }
+      return duelist;
+
     }
 
-    private List<ILabel> getFirstDueLblList() {
+    private List<ILabel> getFirstDueLblList()
+    {
         return AqualityServices.getElementFactory().findElements(DUE, "due",
                 ElementType.LABEL);
     }

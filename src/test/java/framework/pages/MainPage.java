@@ -5,6 +5,7 @@ import aquality.selenium.elements.interfaces.ILink;
 import aquality.selenium.forms.Form;
 import framework.LocatorConstants;
 import org.openqa.selenium.By;
+import org.testng.annotations.Test;
 
 public class MainPage extends Form {
 
