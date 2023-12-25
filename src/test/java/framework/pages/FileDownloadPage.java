@@ -10,21 +10,22 @@ import org.openqa.selenium.By;
 public class FileDownloadPage extends Form {
     private static final String NAME = "File Download";
 
-    public FileDownloadPage() {
+    public FileDownloadPage()
+    {
         super(By.xpath(String.format(LocatorConstants.PRECISE_TEXT_XPATH, NAME)), NAME);
     }
 
-    public void clickFileDownloadLink(String name) {
+    public void clickFileDownloadLink(String name)
+    {
         getFileDownloadLink(name).click();
     }
 
-    public boolean isFileDownloadLinkDisplayed(String name) {
-        // todo: implement
-        return false;
+    public boolean isFileDownloadLinkDisplayed(String name)
+    {
+        return getFileDownloadLink(name).state().waitForDisplayed();
     }
 
     private ILink getFileDownloadLink(String name) {
-        // todo: implement
-        return null;
+        return AqualityServices.getElementFactory().getLink(By.xpath(String.format(LocatorConstants.PRECISE_TEXT_XPATH,name)),name);
     }
 }

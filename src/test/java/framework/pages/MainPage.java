@@ -7,19 +7,22 @@ import framework.LocatorConstants;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class MainPage extends Form {
+public class MainPage extends Form
+{
 
-
-    public MainPage() {
+    public MainPage()
+    {
         super(By.xpath(String.format(LocatorConstants.PRECISE_TEXT_XPATH, "Welcome to the-internet")), "Main Page");
     }
 
-    private ILink getNavigationLink(MainPageNavigation navigation) {
+    private ILink getNavigationLink(MainPageNavigation navigation)
+    {
         return AqualityServices.getElementFactory().getLink(By.xpath(String.format(LocatorConstants.PRECISE_TEXT_XPATH,
                 navigation.label)), navigation.label);
     }
 
-    public void clickNavigationLink(MainPageNavigation navigation) {
+    public void clickNavigationLink(MainPageNavigation navigation)
+    {
         getNavigationLink(navigation).click();
     }
 }

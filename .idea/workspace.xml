@@ -6,10 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="20438c33-23d6-42bd-8338-708dc347ce33" name="Changes" comment="committed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/framework/pages/DataTablesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/pages/DataTablesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/models/FileData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/models/FileData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/models/UserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/models/UserData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/pages/BasicAuthPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/pages/BasicAuthPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/pages/DynamicControlsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/pages/DynamicControlsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/pages/FileDownloadPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/pages/FileDownloadPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/pages/JavaScriptAlertsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/pages/JavaScriptAlertsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/framework/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/pages/MainPageNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/pages/MainPageNavigation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/framework/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/framework/tests/DataTableTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/tests/DataTableTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/tests/BasicAuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/tests/BasicAuthTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/tests/DynamicControlsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/tests/DynamicControlsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/tests/FileDownloadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/tests/FileDownloadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/utils/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/utils/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/utils/SettingsTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/utils/SettingsTestData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +58,8 @@
     "TestNG.BaseTest.executor": "Run",
     "TestNG.BasicAuthTest.executor": "Run",
     "TestNG.DataTableTests.executor": "Run",
+    "TestNG.DynamicControlsTest.executor": "Run",
+    "TestNG.FileDownloadTest.executor": "Run",
     "TestNG.MainPage.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -60,7 +72,7 @@
       <recent name="C:\Users\pc\IdeaProjects\unit3_tasks\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DataTableTests">
+  <component name="RunManager" selected="TestNG.FileDownloadTest">
     <configuration name="AlertTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="unit3_tasks" />
       <extension name="coverage">
@@ -95,23 +107,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicAuthTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="unit3_tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="framework.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="framework.tests" />
-      <option name="MAIN_CLASS_NAME" value="framework.tests.BasicAuthTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DataTableTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="unit3_tasks" />
       <extension name="coverage">
@@ -129,16 +124,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DynamicControlsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="unit3_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="framework.pages.*" />
+          <option name="PATTERN" value="framework.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="framework.pages" />
-      <option name="MAIN_CLASS_NAME" value="framework.pages.MainPage" />
+      <option name="PACKAGE_NAME" value="framework.tests" />
+      <option name="MAIN_CLASS_NAME" value="framework.tests.DynamicControlsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileDownloadTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="unit3_tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="framework.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="framework.tests" />
+      <option name="MAIN_CLASS_NAME" value="framework.tests.FileDownloadTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -148,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DataTableTests" />
+        <item itemvalue="TestNG.FileDownloadTest" />
+        <item itemvalue="TestNG.DynamicControlsTest" />
         <item itemvalue="TestNG.AlertTest" />
+        <item itemvalue="TestNG.DataTableTests" />
         <item itemvalue="TestNG.BaseTest" />
-        <item itemvalue="TestNG.MainPage" />
-        <item itemvalue="TestNG.BasicAuthTest" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703429129026</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="committed">
+      <option name="closed" value="true" />
+      <created>1703509888232</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703509888232</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -219,6 +239,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>14</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/framework/tests/FileDownloadTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -13,6 +13,7 @@ public class BasicAuthTest extends BaseTest {
     @BeforeMethod
     public void auth() {
         browser.network().addBasicAuthentication(
+
                 SettingsTestData.getEnvData().getDomain(),
                 SettingsTestData.getUserData().getUsername(), // Corrected method call
                 SettingsTestData.getUserData().getPassward() // Corrected method call, assuming there's a method like getPasswardData()

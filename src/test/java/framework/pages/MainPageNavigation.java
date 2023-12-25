@@ -1,6 +1,7 @@
 package framework.pages;
 
-public enum MainPageNavigation {
+public enum MainPageNavigation
+{
     JAVASCRIPT_ALERT("JavaScript Alerts"),
     SORTABLE_DATA_TABLES("Sortable Data Tables"),
     DYNAMIC_CONTROLS("Dynamic Controls"),
@@ -10,7 +11,8 @@ public enum MainPageNavigation {
 
     public final String label;
 
-    private MainPageNavigation(String label) {
+    private MainPageNavigation(String label)
+    {
         this.label = label;
     }
 }

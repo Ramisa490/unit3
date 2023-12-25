@@ -1,6 +1,7 @@
 package framework.tests;
 
 import framework.pages.DynamicControlsPage;
+import framework.pages.MainPage;
 import framework.pages.MainPageNavigation;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -13,7 +14,12 @@ public class DynamicControlsTest extends BaseTest {
 
     @Test
     public void dynamicControlsTest() {
-        // todo: add test
+        mainPage.clickNavigationLink(MainPageNavigation.DYNAMIC_CONTROLS);
+        dynamicControlsPage.clickButton();
+        Assert.assertTrue(dynamicControlsPage.IsInputEnable(),"Input is not enabled");
+        dynamicControlsPage.InputText(RANDOM_TEXT);
+        Assert.assertEquals(dynamicControlsPage.getinputtextvalue(),RANDOM_TEXT,"Text is not displayed");
+
     }
 
 

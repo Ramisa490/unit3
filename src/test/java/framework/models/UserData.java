@@ -7,11 +7,13 @@ public class UserData {
     private String username;
     private String password;
 
-    public String getUsername() {
+    public String getUsername()
+    {
         return username;
     }
 
-    public String getPassward() {
+    public String getPassward()
+    {
         return password;
     }
 }

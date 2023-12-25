@@ -65,10 +65,12 @@ public class SettingsTestData {
     }
 
     public static FileData getFileData() {
-        try {
+        try
+        {
             return gson.fromJson(new FileReader(FILE_DATA_PATH), FileData.class);
         }
-        catch (FileNotFoundException e) {
+        catch (FileNotFoundException e)
+        {
             AqualityServices.getLogger().error(ERROR_MSG);
             throw new RuntimeException(ERROR_MSG);
         }

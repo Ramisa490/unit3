@@ -12,19 +12,24 @@ import java.io.File;
 
 
 public class FileDownloadTest extends BaseTest {
-    private FileDownloadPage fileDownloadPage = new FileDownloadPage();
+    private final FileDownloadPage fileDownloadPage = new FileDownloadPage();
     public final String FILE_NAME = SettingsTestData.getFileData().getDownloadFile();
     public final String FILE_PATH = SettingsTestData.RESOURCE_FILE_PATH + FILE_NAME;
     private final File downloadedFile = new File(FILE_PATH);
 
 
     @Test
-    public void fileUploadTest() {
-        // todo: add test
+    public void fileUploadTest()
+    {
+       mainPage.clickNavigationLink(MainPageNavigation.FILE_DOWNLOAD);
+       Assert.assertTrue(fileDownloadPage.isFileDownloadLinkDisplayed(FILE_NAME));
+       fileDownloadPage.clickFileDownloadLink(FILE_NAME);
+       Assert.assertTrue(FileUtil.isFileExist(downloadedFile));
     }
 
     @AfterMethod
-    public void deleteFile() {
-        // todo: add delete file
+    public void deleteFile()
+    {
+        FileUtil.deleteFileIfExist(downloadedFile);
     }
 }
