@@ -18,7 +18,8 @@ public class FileUploadTest extends BaseTest {
 
 
     @Test
-    public void fileUploadTest() {
+    public void fileUploadTest()
+    {
         mainPage.clickNavigationLink(MainPageNavigation.FILE_UPLOAD);
         FileUploadPage.UploadFile(new File(FILE_PATH).getAbsolutePath());
         FileUploadPage.clicksubmitbtn();
