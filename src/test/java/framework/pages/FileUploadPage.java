@@ -14,7 +14,7 @@ public class FileUploadPage extends Form
     private static final By SubmitFile = By.id("file-submit");
     private static final ITextBox FileNameInput = AqualityServices.getElementFactory().getTextBox(ChooseFile,"Uploaded");
 
-    private static IButton FileSumbitBtn = AqualityServices.getElementFactory().getButton(SubmitFile,"Submitted");
+    private static final IButton FileSumbitBtn = AqualityServices.getElementFactory().getButton(SubmitFile,"Submitted");
     public FileUploadPage()
     {
         super(By.xpath(String.format(LocatorConstants.PRECISE_TEXT_XPATH,name)),name);

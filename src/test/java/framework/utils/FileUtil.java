@@ -8,7 +8,8 @@ import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 @UtilityClass
-public class FileUtil {
+public class FileUtil
+{
 
     public static boolean isFileExist(File file) {
         try

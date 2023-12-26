@@ -10,7 +10,7 @@ public class UplodedFilePage extends Form
 {
     public static final String name = "File Uploaded!";
     private static final By FileName = By.id("uploaded-files");
-    private static ILabel UploadedFile = AqualityServices.getElementFactory().getLabel(FileName,"FileName");
+    private static final ILabel UploadedFile = AqualityServices.getElementFactory().getLabel(FileName,"FileName");
 
     public UplodedFilePage()
     {

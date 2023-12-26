@@ -9,10 +9,10 @@ import framework.LocatorConstants;
 import org.openqa.selenium.By;
 
 public class MainPage extends Form {
-    String name = "Albert Einstein";
+
     public MainPage()
     {
-        super(By.xpath(String.format(LocatorConstants.PRECISE_TEXT_XPATH, "Wikipedia")), "Main Page");
+        super(By.xpath(String.format(LocatorConstants.PRECISE_TEXT_XPATH,"Welcome to the-internet")), "Main Page");
     }
     private ILink getNavigationLink(MainPageNavigation navigation) {
         return AqualityServices.getElementFactory().getLink(By.xpath(String.format(LocatorConstants.PRECISE_TEXT_XPATH,

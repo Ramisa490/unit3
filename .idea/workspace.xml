@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed5a037d-fde4-46c4-b01c-8eee59e1922c" name="Changes" comment="Committed">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/pages/FileUploadPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/pages/FileUploadPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/pages/MainPageNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/pages/MainPageNavigation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/pages/UplodedFilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/pages/UplodedFilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/tests/AlertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/tests/AlertTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/utils/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/utils/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/utils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/utils/StringUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,28 +47,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Maven.Practice_Tasks_U3 [install].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.AlertTest.executor": "Run",
-    "TestNG.BasicAuthTest.executor": "Run",
-    "TestNG.DataTableTests.executor": "Run",
-    "TestNG.DynamicControlsTest.executor": "Run",
-    "TestNG.FileDownloadTest.executor": "Run",
-    "TestNG.FileUploadTest.executor": "Run",
-    "TestNG.Main.executor": "Run",
-    "git-widget-placeholder": "Practice__Task__U3",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/pc/IdeaProjects/Practice_Tasks_U3",
-    "onboarding.tips.debug.path": "C:/Users/pc/IdeaProjects/Practice_Tasks_U3/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Maven.Practice_Tasks_U3 [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.AlertTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BasicAuthTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DataTableTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DynamicControlsTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FileDownloadTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FileUploadTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Main.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Practice__Task__U3&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pc/IdeaProjects/wiki&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/pc/IdeaProjects/Practice_Tasks_U3/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="framework.tests" />
@@ -68,6 +76,23 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.BasicAuthTest">
+    <configuration name="AlertTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_Tasks_U3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="framework.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="framework.tests" />
+      <option name="MAIN_CLASS_NAME" value="framework.tests.AlertTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BasicAuthTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Practice_Tasks_U3" />
       <extension name="coverage">
@@ -95,23 +120,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="framework.tests" />
       <option name="MAIN_CLASS_NAME" value="framework.tests.DataTableTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DynamicControlsTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Practice_Tasks_U3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="framework.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="framework.tests" />
-      <option name="MAIN_CLASS_NAME" value="framework.tests.DynamicControlsTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -156,10 +164,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.BasicAuthTest" />
-        <item itemvalue="TestNG.FileUploadTest" />
-        <item itemvalue="TestNG.FileDownloadTest" />
-        <item itemvalue="TestNG.DynamicControlsTest" />
+        <item itemvalue="TestNG.AlertTest" />
         <item itemvalue="TestNG.DataTableTests" />
+        <item itemvalue="TestNG.FileDownloadTest" />
+        <item itemvalue="TestNG.FileUploadTest" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703593720516</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Committed">
+      <option name="closed" value="true" />
+      <created>1703594569898</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703594569898</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

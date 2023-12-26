@@ -6,7 +6,8 @@ import lombok.experimental.UtilityClass;
 public class StringUtils {
     private static final String DOUBLE_REGEX = "[^\\d.]";
 
-    public static Double getDoubleFromString(String text) {
+    public static Double getDoubleFromString(String text)
+    {
         return Double.parseDouble(text.replaceAll(DOUBLE_REGEX, ""));
     }
 }
