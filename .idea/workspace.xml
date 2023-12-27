@@ -67,7 +67,24 @@
       <recent name="framework.Pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.BasicAuthTest">
+  <component name="RunManager" selected="TestNG.AlertTest (1)">
+    <configuration name="AlertTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="unit3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="framework.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="framework.tests" />
+      <option name="MAIN_CLASS_NAME" value="framework.tests.AlertTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AlertTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Practice_Tasks_U3" />
       <extension name="coverage">
@@ -136,30 +153,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileUploadTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Practice_Tasks_U3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="framework.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="framework.tests" />
-      <option name="MAIN_CLASS_NAME" value="framework.tests.FileUploadTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AlertTest (1)" />
         <item itemvalue="TestNG.BasicAuthTest" />
         <item itemvalue="TestNG.AlertTest" />
         <item itemvalue="TestNG.DataTableTests" />
         <item itemvalue="TestNG.FileDownloadTest" />
-        <item itemvalue="TestNG.FileUploadTest" />
       </list>
     </recent_temporary>
   </component>

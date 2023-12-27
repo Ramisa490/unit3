@@ -17,7 +17,5 @@ public class AlertTest extends BaseTest {
         browser.handleAlert(AlertActions.ACCEPT);
         Assert.assertTrue(javaScriptAlertsPage.isSuccessLabelDisplayed(), "Success msg is not displayed");
     }
-
-
-
+    
 }
